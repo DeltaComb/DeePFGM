@@ -30,7 +30,7 @@ if __name__ == "__main__":
     cbDict['gz'] = np.append([0],cbDict['gz'])
     cbDict['gc'] = np.append([0],cbDict['gc'])
     cbDict['gcz'] = np.append([0],cbDict['gcz'])
-    # PDF_Sim.multiprocessingpdf(cbDict)
+    PDF_Sim.multiprocessingpdf(cbDict)
     assemble.assemble(cbDict,solFln)
     end=time.time()
     print('Running time: %s Seconds'%(end-start))
