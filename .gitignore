@@ -1,0 +1,8 @@
+# editor backups
+*.swp
+
+# Python cache folder
+__pycache__/
+
+# Solution folder
+canteraData/
